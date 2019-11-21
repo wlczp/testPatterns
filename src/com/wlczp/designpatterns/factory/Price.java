@@ -9,7 +9,7 @@ public abstract class Price {
     private String currency;
     private String priceType; //产品计价类型
     private String typeDesc;
-    abstract double getPrice(String productid) ;
+    public abstract double getPrice(String productid) ;
 
     public String getProcuctId() {
         return procuctId;
